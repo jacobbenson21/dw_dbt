@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: websource_landing
+    database: jacobbenson
+    schema: samssubs_source
+    tables:
+      - name: web_traffic_events
